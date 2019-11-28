@@ -17,3 +17,6 @@ framework:
 
     templating:
         engines: ['twig', 'php']
+
+    translator:
+        enabled: false
