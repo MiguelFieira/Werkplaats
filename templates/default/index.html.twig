@@ -53,6 +53,29 @@
         max-width: 1366px;
   }
 }
+@media all and (max-width: 768px) {
+  .h-100 {
+    height: 100%!important;
+    padding: 15% 5%;
+  }
+  .home-title {
+    font-size: 28px !important;
+  }
+  div#navbarResponsive {
+    background-color: #fff;
+    border-top: 6px solid #000;
+  }
+  div#navbarResponsive ul li a {
+    color: #000 !important;
+    padding: 5%;
+    text-transform: uppercase;
+  }
+  div#navbarResponsive ul li a:hover {
+    background-color: #f2f2f2;
+  }
+}
+
+
 
 #navbar-container {
     background-color: rgba(255, 255, 255, 0);
@@ -104,7 +127,7 @@
     <div class="row h-100 align-items-center">
         <div class="row">
             <div class="col-md-5">
-                <h1 class="font-weight-light header-title">MKB Werkplaats</h1>
+                <h1 class="home-title ont-weight-light header-title">MKB Werkplaats</h1>
                 <p class="lead">Hoe future proof is uw onderneming? Onze studenten zien de digitale kansen, uitdagingen en mogelijkheden voor uw bedrijf waar u (nog) geen weet van hebt. We gaan graag samen met u aan de slag! Bereik meer klanten, werk efficiënter, maak meer winst. Heeft u een concrete vraag of wilt u samen kijken wat er mogelijk is. Meldt u aan!</p>
             </div>
             <div class="col-md-7 text-right">
@@ -119,7 +142,7 @@
 <section class="py-5">
   <div class="container">
     {# <h2 class="font-weight-light">Page Content</h2> #}
-    <div class='row'>
+    <div class='row text-center'>
        <div class='col'>
             <div class='row'>
                 <div class='col-xl-2'></div>
